@@ -1,5 +1,5 @@
-const canvas = querySelector("canvas);
-const c = getContext("2d");
+const canvas = document.querySelector("canvas);
+const c = canvas.getContext("2d");
 
 canvas.width = 1500
 canvas.height = 590
